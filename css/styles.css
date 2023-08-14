@@ -557,7 +557,7 @@ max-width: 264px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -751,6 +751,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     background: var(--dairy-color);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     padding: 72px 24px 24px 24px;
 }
 
 .backdrop.is-hidden .modal {
@@ -857,9 +858,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: rgba(46, 47, 66, 0.4);;
   border-radius: 4px;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);;
   padding: 8px 16px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -874,7 +875,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .modal-comment:focus {
-  border-color: #2e2f42;
+  border-color: #4D5AE5;
 }
 
 .modal-field-privacy {
@@ -897,7 +898,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .modal-check-decor {
   width: 16px;
   height: 16px;
-  border: 1px solid #2e2f42;
+   border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 2px;
   margin-right: 8px;
   display: inline-flex;
@@ -915,9 +916,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   fill: #f4f4fd;
 }
 
-.modal-btn {
+.modal-button {
   display: block;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif ;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -935,7 +936,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-button:hover,
+.modal-button:focus {
   background-color: #404bbf;
 }
