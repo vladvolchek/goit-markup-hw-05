@@ -492,7 +492,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-footer {
     font-weight: 500;
-    margin-bottom: 16px;
+    
     color: var(--white);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -522,14 +522,16 @@ max-width: 264px;
   color: var(--white);
   text-shadow: var(--footer-social-title-shadow);
   margin-bottom: 16px;
-  padding-left: 80px;
+  
 }
 .footer-form {
   display: flex;
   gap: 24px;
-  padding-left: 80px;
+  
 }
-
+.footer-form-content{
+    margin-left: 80px;
+}
 .footer-input {
   width: 264px;
   height: 40px;
